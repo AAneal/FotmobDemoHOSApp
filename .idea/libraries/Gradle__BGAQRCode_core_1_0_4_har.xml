@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: BGAQRCode-core-1.0.4@har">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/17be4ea9333efcb56b4ad3929af56cdf/BGAQRCode-core-1.0.4/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/17be4ea9333efcb56b4ad3929af56cdf/BGAQRCode-core-1.0.4/resources" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/17be4ea9333efcb56b4ad3929af56cdf/BGAQRCode-core-1.0.4/config.json" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

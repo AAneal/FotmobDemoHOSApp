@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: wearengine-wearable-harmonyos-5.0.2.302@har">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf2ccdd6ffb5e3bdd36660545505f2e7/wearengine-wearable-harmonyos-5.0.2.302/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf2ccdd6ffb5e3bdd36660545505f2e7/wearengine-wearable-harmonyos-5.0.2.302/resources" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf2ccdd6ffb5e3bdd36660545505f2e7/wearengine-wearable-harmonyos-5.0.2.302/config.json" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

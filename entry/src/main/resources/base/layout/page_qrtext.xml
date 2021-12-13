@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center">
+
+    <Text
+        ohos:id="$+id:qr_text_status"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:layout_alignment="center"
+        ohos:left_padding="12vp"
+        ohos:max_text_lines="5"
+        ohos:multiple_lines="true"
+        ohos:right_padding="12vp"
+        ohos:text="Swipe Up to get QR code to download the app."
+        ohos:text_alignment="horizontal_center"
+        ohos:text_color="#fff"
+        ohos:text_size="32"/>
+
+</DirectionalLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:bg"
+    ohos:orientation="vertical">
+
+
+    <Image
+        ohos:id="$+id:icon"
+        ohos:height="50vp"
+        ohos:width="match_content"
+        ohos:image_src="$media:icon_small"
+        ohos:layout_alignment="horizontal_center"
+        ohos:top_margin="8vp"/>
+
+    <StackLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+        <PageSlider
+            ohos:id="$+id:qrPageSlider"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:layout_alignment="center"
+            ohos:visibility="hide">
+        </PageSlider>
+
+        <ProgressBar
+            ohos:id="$+id:progressbar"
+            ohos:height="120vp"
+            ohos:width="120vp"
+            ohos:layout_alignment="center"
+            ohos:visibility="hide"/>
+
+        <ListContainer
+            ohos:id="$+id:list_container"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:bottom_margin="10vp"
+            ohos:layout_alignment="horizontal_center"
+            ohos:rebound_effect="true"
+            ohos:scrollbar_fading_delay="1000"
+            ohos:visibility="hide"/>
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:layout_alignment="center"
+            ohos:alignment="center"
+            ohos:padding="10vp">
+
+            <Text
+                ohos:id="$+id:text_status"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:layout_alignment="center"
+                ohos:left_padding="12vp"
+                ohos:max_text_lines="5"
+                ohos:multiple_lines="true"
+                ohos:right_padding="12vp"
+                ohos:text_alignment="horizontal_center"
+                ohos:text_color="#fff"
+                ohos:text_size="32"
+                ohos:visibility="visible"/>
+
+            <Button
+                ohos:id="$+id:button_retry"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:background_element="$graphic:background_button"
+                ohos:bottom_padding="8vp"
+                ohos:layout_alignment="center"
+                ohos:left_padding="16vp"
+                ohos:right_padding="16vp"
+                ohos:text="Refresh"
+                ohos:text_alignment="center"
+                ohos:text_color="#fff"
+                ohos:text_size="42"
+                ohos:top_margin="16vp"
+                ohos:top_padding="8vp"
+                ohos:visibility="hide"/>
+
+        </DirectionalLayout>
+    </StackLayout>
+</DirectionalLayout>

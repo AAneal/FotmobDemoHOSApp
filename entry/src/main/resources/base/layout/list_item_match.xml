@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:layout_root"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:alignment="vertical_center"
+    ohos:background_element="#fff"
+    ohos:min_height="40vp"
+    ohos:orientation="horizontal">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="0fp"
+        ohos:bottom_margin="8vp"
+        ohos:orientation="vertical"
+        ohos:top_margin="8vp"
+        ohos:weight="2">
+
+        <Text
+            ohos:id="$+id:text_homeTeam"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:left_padding="6vp"
+            ohos:right_padding="2vp"
+            ohos:text_color="#000"
+            ohos:auto_scrolling_count="2"
+            ohos:truncation_mode="auto_scrolling"
+            ohos:text_size="38"/>
+
+        <Text
+            ohos:id="$+id:text_awayTeam"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:left_padding="6vp"
+            ohos:right_padding="2vp"
+            ohos:text_color="#000"
+            ohos:auto_scrolling_count="2"
+            ohos:truncation_mode="auto_scrolling"
+            ohos:text_size="38"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="0fp"
+        ohos:alignment="horizontal_center"
+        ohos:bottom_margin="8vp"
+        ohos:orientation="vertical"
+        ohos:top_margin="8vp"
+        ohos:weight="1">
+
+        <Text
+            ohos:id="$+id:text_scoreOrTime"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_padding="2vp"
+            ohos:right_padding="6vp"
+            ohos:text_color="#000"
+            ohos:text_size="40"/>
+
+        <Text
+            ohos:id="$+id:text_elapsedTime"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_padding="2vp"
+            ohos:right_padding="6vp"
+            ohos:text_color="#000"
+            ohos:text_size="40"/>
+
+    </DirectionalLayout>
+</DirectionalLayout>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: BGAQRCode-zxing-1.0.4@har">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1fa18c0d48730aa2bfa5cc33d9c93f3/BGAQRCode-zxing-1.0.4/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1fa18c0d48730aa2bfa5cc33d9c93f3/BGAQRCode-zxing-1.0.4/resources" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1fa18c0d48730aa2bfa5cc33d9c93f3/BGAQRCode-zxing-1.0.4/config.json" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

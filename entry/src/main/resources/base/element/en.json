@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "FotMob"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Wearable_Empty Feature Ability"
+    },
+
+    {
+      "name": "bluetooth_connection_failed",
+      "value": "Make sure the Bluetooth connection is made with the watch and mobile device"
+    }
+  ,
+    {
+      "name": "open_app_sync_data",
+      "value": "Open the app in your connected phone to synchronize data."
+    }
+  ,
+    {
+      "name": "no_fav_team_playing",
+      "value": "No Favorite teams playing today"
+    }
+  ,
+    {
+      "name": "connection_failed",
+      "value": "Connection Failed"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:layout_root"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:background_element="#fff"
+    ohos:min_height="68vp"
+    ohos:orientation="horizontal">
+
+    <Image
+        ohos:id="$+id:image_homeTeam"
+        ohos:height="48vp"
+        ohos:width="48vp"
+        ohos:left_margin="10vp"
+        ohos:scale_mode="inside"
+        />
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="0fp"
+        ohos:alignment="center"
+        ohos:orientation="vertical"
+        ohos:top_margin="14vp"
+        ohos:weight="1">
+
+        <Text
+            ohos:id="$+id:text_scoreOrTime"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_color="#000"
+            ohos:text_size="58"/>
+
+        <Text
+            ohos:id="$+id:text_elapsedTime"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_color="#000"
+            ohos:text_size="40"/>
+
+    </DirectionalLayout>
+
+    <Image
+        ohos:id="$+id:image_awayTeam"
+        ohos:height="48vp"
+        ohos:width="48vp"
+        ohos:right_margin="10vp"
+        />
+</DirectionalLayout>
